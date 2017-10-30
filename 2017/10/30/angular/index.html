@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2017 | Hexo</title>
+  <title>angular环境搭建! | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2017/index.html">
+  <meta name="description" content="快速开始1.安装nodejs首先要安装nodejs，如果你的电脑已经装过了，最好确认是比较新的版本，否则可能会出问题。没有安装的直接去nodejs官网下载nodejs安装。安装过程很简单，官网有教程。 下载地址：https://nodejs.org/en/download 安装完成后，windows+R 输入cmd，打开命令输入 node -v 看看安装版本  2.安装cnmp由于Angular">
+<meta name="keywords" content="angular">
+<meta property="og:type" content="article">
+<meta property="og:title" content="angular环境搭建!">
+<meta property="og:url" content="http://yoursite.com/2017/10/30/angular/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="快速开始1.安装nodejs首先要安装nodejs，如果你的电脑已经装过了，最好确认是比较新的版本，否则可能会出问题。没有安装的直接去nodejs官网下载nodejs安装。安装过程很简单，官网有教程。 下载地址：https://nodejs.org/en/download 安装完成后，windows+R 输入cmd，打开命令输入 node -v 看看安装版本  2.安装cnmp由于Angular">
+<meta property="og:updated_time" content="2017-10-30T13:49:54.144Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="angular环境搭建!">
+<meta name="twitter:description" content="快速开始1.安装nodejs首先要安装nodejs，如果你的电脑已经装过了，最好确认是比较新的版本，否则可能会出问题。没有安装的直接去nodejs官网下载nodejs安装。安装过程很简单，官网有教程。 下载地址：https://nodejs.org/en/download 安装完成后，windows+R 输入cmd，打开命令输入 node -v 看看安装版本  2.安装cnmp由于Angular">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -156,36 +161,87 @@ var _hmt = _hmt || [];
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-angular" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/10/30/angular/" class="archive-article-date">
-  	<time datetime="2017-10-30T13:50:12.763Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-10-30</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/10/30/angular/">angular环境搭建!</a>
+    <h1 class="article-title" itemprop="name">
+      angular环境搭建!
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2017/10/30/angular/" class="archive-article-date">
+  	<time datetime="2017-10-30T13:50:12.763Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-10-30</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h1><h3 id="1-安装nodejs"><a href="#1-安装nodejs" class="headerlink" title="1.安装nodejs"></a>1.安装<a href="https://nodejs.org/en/download/" target="_blank" rel="external">nodejs</a></h3><p>首先要安装nodejs，如果你的电脑已经装过了，最好确认是比较新的版本，否则可能会出问题。<br>没有安装的直接去nodejs官网下载nodejs安装。安装过程很简单，官网有教程。</p>
+<p>下载地址：<a href="https://nodejs.org/en/download/" target="_blank" rel="external">https://nodejs.org/en/download</a></p>
+<p>安装完成后，windows+R 输入cmd，打开命令<br>输入 <strong>node -v</strong> 看看安装版本 </p>
+<h3 id="2-安装cnmp"><a href="#2-安装cnmp" class="headerlink" title="2.安装cnmp"></a>2.安装cnmp</h3><p>由于Angular CLi的一些资源被墙掉了，所以这里我们使用淘宝的镜像去下载安装，否则会很慢并且很容易出问题。</p>
+<p> 淘宝镜像网址：<a href="https://npm.taobao.org/" target="_blank" rel="external">https://npm.taobao.org/</a></p>
+<h4 id="使用node-npm命令安装"><a href="#使用node-npm命令安装" class="headerlink" title="使用node npm命令安装"></a>使用node npm命令安装</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g cnpm –registry=https://registry.npm.taobao.org</div></pre></td></tr></table></figure>
+<p>之后安装angular cli的时候我们就用<strong>cnpm</strong>命令即可。包括其他被墙的资源也可以用cnmp去下载安装！</p>
+<h3 id="3-安装Angular-Cli"><a href="#3-安装Angular-Cli" class="headerlink" title="3.安装Angular Cli"></a>3.安装Angular Cli</h3><p>之前电脑上如果安装过angular cli老版本的话建议先卸载，然后重新安装</p>
+<h4 id="卸载老版本："><a href="#卸载老版本：" class="headerlink" title="卸载老版本："></a>卸载老版本：</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm uninstall -g angular-cli</div></pre></td></tr></table></figure>
+<h4 id="卸载新版本："><a href="#卸载新版本：" class="headerlink" title="卸载新版本："></a>卸载新版本：</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm uninstall -g @angular/cli</div></pre></td></tr></table></figure>
+<h4 id="清除下缓存-："><a href="#清除下缓存-：" class="headerlink" title="清除下缓存 ："></a>清除下缓存 ：</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm cache clean</div></pre></td></tr></table></figure>
+<p>更多信息: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">服务器</a></p>
+<h4 id="然后开始安装，记住，最好用cnpm"><a href="#然后开始安装，记住，最好用cnpm" class="headerlink" title="然后开始安装，记住，最好用cnpm"></a>然后开始安装，记住，最好用<strong>cnpm</strong></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cnpm install -g @angular/cli@latest</div></pre></td></tr></table></figure>
+<p>安装完成后输入 <strong>ng help</strong> 查看是否安装成功 </p>
+<h1 id="angular-搭建项目"><a href="#angular-搭建项目" class="headerlink" title="angular 搭建项目"></a>angular 搭建项目</h1><h3 id="1-搭建项目框架"><a href="#1-搭建项目框架" class="headerlink" title="1.搭建项目框架"></a>1.搭建项目框架</h3><p>安装完命令行工具后我们就可以创建Angular项目了。<br>首先，切换到项目的存放目录，我的是在桌面的angularDemo文件夹下<br>输入:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ng new [projectName]</div></pre></td></tr></table></figure></p>
+<p>projectName就是你的项目名称，例如，我创建一个aution项目</p>
+<p>然后耐心等待，这里会下载很多东西，所以不要着急</p>
+<p>这就表示创建完成了</p>
+<h3 id="1-运行项目"><a href="#1-运行项目" class="headerlink" title="1.运行项目"></a>1.运行项目</h3><p>首先切换至项目目录，然后执行<strong>ng serve</strong>命令<br>在项目目录输入：<br> <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ng serve</div></pre></td></tr></table></figure></p>
+<p> 出现上图所示表示项目运行成功了。默认是运行在4200端口上的。</p>
+<p> 打开浏览器，输入<strong>localhost:4200</strong>即可访问。</p>
+<p> 大功告成！一个Angular的项目就创建好了</p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/images/alipay.png">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/images/weixin.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -197,73 +253,149 @@ var _hmt = _hmt || [];
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/10/30/angular/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/09/19/first/" class="archive-article-date">
-  	<time datetime="2017-09-19T13:21:02.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-19</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2017/09/19/first/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">first</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/09/19/first/">first</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
+  
+  <!--表情-->
+<div style="margin-left: 40px;"><div id="cyEmoji" role="cylabs" data-use="emoji" sid="angular"></div></div>
+<script type="text/javascript" charset="utf-8" src="https://changyan.itc.cn/js/lib/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=cytd8GjEU"></script>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/09/19/hello-world/" class="archive-article-date">
-  	<time datetime="2017-09-19T13:19:00.117Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-19</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/09/19/hello-world/">hexo的使用</a>
-    </h1>
+<!--PC和WAP自适应版-->
+<div id="SOHUCS" sid="angular" ></div>
+<script type="text/javascript">
+    (function(){
+        var appid = 'cytd8GjEU';
+        var conf = 'prod_21d854837c6931da20573b9df4aa83f4';
+        var width = window.innerWidth || document.documentElement.clientWidth;
+        if (width < 960) {
+            window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })();
+</script>
+
+
+
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+  <script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+(function(){
+var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?0eb84d1f67667d3a362c7d4486962281":"https://jspassport.ssl.qhimg.com/11.0.1.js?0eb84d1f67667d3a362c7d4486962281";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
+
+  
+
+
+
+  
 
 
           </div>
@@ -288,8 +420,8 @@ var _hmt = _hmt || [];
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
